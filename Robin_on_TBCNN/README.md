@@ -1,6 +1,6 @@
 ## Introduction
 
-Generate an interpreter on TBCNN by Robin.
+Generate an interpreter for TBCNN by Robin.
 
 ## Environment
 
@@ -23,13 +23,13 @@ Generate an interpreter on TBCNN by Robin.
    source process_data.sh
    ```
 
-3. Train a  code functionality classifier to be explained.
+3. Train a code functionality classifier to be explained.
 
    ```
    source tbcnn_testing_script.sh
    ```
 
-4. Generate perturbed example. Put the training set to "Generate_Perturbed_Examples" folder to generate candidate perturbed examples, and copy the candidate perturbed examples to this folder.
+4. Generate perturbed examples. Put the training set to "Generate_Perturbed_Examples" folder to generate candidate perturbed examples, and copy the candidate perturbed examples to this folder.
 
 5. Filter out perturbed examples whose prediction labels are different from the prediction labels of the corresponding original examples in the training set.
 
