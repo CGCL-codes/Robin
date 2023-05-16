@@ -5,12 +5,12 @@ We propose a novel post-hoc approach with local interpretation, named Robin, for
 ## Classifiers to be explained
 - DL-CAIS: code authorship attribution
 
-  > Mohammed Abuhamad, Tamer AbuHmed, Aziz Mohaisen, and DaeHun Nyang. 2018. Large-scale and language-oblivious code authorship identification. In Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security. 101–114.
+  > M. Abuhamad, T. AbuHmed, A. Mohaisen, and D. Nyang, “Large-scale and language-oblivious code authorship identification,” in Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security (CCS), Toronto, ON, Canada, 2018, pp. 101–114.
 
   We use a dataset from the Google Code Jam (GCJ), involving 1,632 C++ program files from 204 authors for 8 programming challenges. This dataset is different from the one used by Abuhamad et al., which is not available to us. You can download this dataset by this link: https://github.com/EQuiw/code-imitator.
 
 - TBCNN: code functionality classification
 
-  > Lili Mou, Ge Li, Lu Zhang, Tao Wang, and Zhi Jin. 2016. Convolutional neural networks over tree structures for programming language processing. In Thirtieth AAAI conference on artificial intelligence.
+  > L. Mou, G. Li, L. Zhang, T. Wang, and Z. Jin, “Convolutional neural networks over tree structures for programming language processing,” in Proceedings of the 30th AAAI Conference on Artificial Intelligence (AAAI), Phoenix, Arizona, USA, 2016, pp. 1287–1293.
 
   We use the dataset of pedagogical programming Open Judge (OJ) system, involving 52,000 C programs for 104 programming problems. This dataset is the same as the one used by Mou et al. because it is publicly available. You can download this dataset by this link: https://sites.google.com/site/treebasedcnn/.
