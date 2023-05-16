@@ -1,6 +1,6 @@
 ## Introduction
 
-Generate an interpreter on DL-CAIS by Robin.
+Generate an interpreter for DL-CAIS by Robin.
 
 ## Environment
 
@@ -19,13 +19,13 @@ Generate an interpreter on DL-CAIS by Robin.
 
 2. Download the dataset from https://github.com/EQuiw/code-imitator.
 
-3. Train a code authorship attribution classifier to be explained.
+3. Train a code authorship attribution classifier.
 
    ```
    python evaluations/learning/rf_usenix/train_models_parallel.py
    ```
 
-4. Generate perturbed example. Put the training set to "Generate_Perturbed_Examples" folder to generate candidate perturbed examples, and copy the candidate perturbed examples to this folder.
+4. Generate perturbed examples. Put the training set to "Generate_Perturbed_Examples" folder to generate candidate perturbed examples, and copy the candidate perturbed examples to this folder.
 
 5. Filter out perturbed examples whose prediction labels are different from the prediction labels of the corresponding original examples in the training set.
 
@@ -34,7 +34,7 @@ Generate an interpreter on DL-CAIS by Robin.
    python get_nochange.py
    ```
 
-6. Generate a preliminary interpreter.
+6. Generate a preliminary interpreter for the classifier.
 
    ```
    python train204_robust.py
