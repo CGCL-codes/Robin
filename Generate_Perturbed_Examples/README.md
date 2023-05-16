@@ -1,6 +1,6 @@
 ## Introduction
 
-Generates perturbed examples from a code example by conducting semantics-preserving code transformations, involving 23 types of transformations.
+Generate perturbed examples from given code examples by conducting semantics-preserving code transformations, involving 23 types of transformations.
 
 ## Environment
 
